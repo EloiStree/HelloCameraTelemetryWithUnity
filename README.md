@@ -8,3 +8,10 @@ Link to it:
 Workshop:
 - Hello Camera (no XR) With Reality Hacker
   - https://github.com/EloiStree/HelloCameraTelemetryWithUnity/issues/2 
+
+
+To Do:
+```
+var bundle = AssetBundle.LoadFromFile(path);
+ComputeShader cs = bundle.LoadAsset<ComputeShader>("MyCompute");
+```
